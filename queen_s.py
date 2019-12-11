@@ -22,10 +22,10 @@ def fullPageSwipe():
 def miniSwipe():
     d.swipe(100, 1000, 100, 600, steps=50)
 getXmlSnapshot()
-def downloadImage():
-    message_1=d(resourceId="com.whatsapp:id/single_msg_tv" ).text
+#def downloadImage():
+ #   message_1=d(resourceId="com.whatsapp:id/single_msg_tv" ).text
     #os.system("adb shell input text " + url)
-    print(message_1)
+  #  print(message_1)
     #d.press.enter()
     #time.sleep(3)
     #d.long_click(*center)
@@ -34,6 +34,6 @@ def downloadImage():
 
 
 #url = "https://s3.ap-south-1.amazonaws.com/static.queensapp.in/queensSmall.png"
-downloadImage()
+#downloadImage()
 #getXmlSnapshot()
 
