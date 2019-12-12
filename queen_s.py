@@ -58,8 +58,15 @@ def openunseenmsg ():
         print(lastmessage)    
 openunseenmsg()
 #sendMessageOnWhatsApp(read_message())
-
-
+def media ():
+     d(resourceId="com.whatsapp:id/input_attach_button").click()
+     d(text="Gallery").click()
+     d(resourceId="com.whatsapp:id/title").click()
+     count=d(className="android.widget.ImageView").count 
+     d(className="android.widget.ImageView").click()
+     #print(count)
+     d(resourceId="com.whatsapp:id/send").click()
+media()
 #def downloadImage():
     #message_1=d(resourceId="com.whatsapp:id/single_msg_tv" ).text
     #os.system("adb shell input text " + url)
