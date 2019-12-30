@@ -59,6 +59,7 @@ def sharee ():
      d(resourceId="com.whatsapp:id/menuitem_select_multiple").click()
      for i in range(1,6):
              d(className="android.widget.ImageView",instance=i).click()
+             time.sleep(1)
      d(text="OK").click()
      d(resourceId="com.whatsapp:id/send").click()
 def moresharee():
@@ -70,6 +71,7 @@ def moresharee():
      d(resourceId="com.whatsapp:id/menuitem_select_multiple").click()
      for i in range(7,8):
              d(className="android.widget.ImageView",instance=i).click()
+             time.sleep(1)
      d(text="OK").click()
      d(resourceId="com.whatsapp:id/send").click()
     
@@ -81,6 +83,7 @@ def kurti ():
      d(resourceId="com.whatsapp:id/menuitem_select_multiple").click()
      for i in range(9,14):
          d(className="android.widget.ImageView",instance=i).click()
+         time.sleep(1)
      d(text="OK").click()
      d(resourceId="com.whatsapp:id/send").click()
 def morekurti():
@@ -92,6 +95,7 @@ def morekurti():
      d(resourceId="com.whatsapp:id/menuitem_select_multiple").click()
      for i in range(15,18):
              d(className="android.widget.ImageView",instance=i).click()
+             time.sleep(1)
      d(text="OK").click()
      d(resourceId="com.whatsapp:id/send").click()
 #media ("Kurti")
